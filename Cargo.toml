@@ -3,6 +3,7 @@ name = "brain-snake"
 version = "0.1.0"
 authors = ["Marco Stahl"]
 edition = "2018"
+license-file = "LICENSE"
 
 [dependencies]
 raylib = "1.0.0"
