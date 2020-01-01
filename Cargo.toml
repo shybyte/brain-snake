@@ -1,0 +1,8 @@
+[package]
+name = "brain-snake"
+version = "0.1.0"
+authors = ["Marco Stahl"]
+edition = "2018"
+
+[dependencies]
+raylib = "1.0.0"
