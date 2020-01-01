@@ -1,9 +1,18 @@
 language: rust
 rust:
   - stable
-  - beta
-  - nightly
-matrix:
-  allow_failures:
-    - rust: beta
-    - rust: nightly
+addons:
+  apt:
+    update: true
+    packages:
+      - cmake
+      - libasound2-dev
+      - libxcursor-dev
+      - libxinerama-dev
+      - mesa-common-dev
+      - libx11-dev
+      - libxrandr-dev
+      - libxrandr2
+      - libxi-dev
+      - libgl1-mesa-dev
+      - libglu1-mesa-dev
