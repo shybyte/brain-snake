@@ -1,7 +1,7 @@
 use std::fs;
 use std::path::Path;
 
-use crate::engine::common::{GridCoordinate, GridPosition};
+use crate::engine::common::{GridPosition};
 use crate::engine::error::SimpleResult;
 
 pub trait Tile: Sized + Copy {
